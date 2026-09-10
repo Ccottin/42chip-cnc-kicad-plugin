@@ -1,0 +1,26 @@
+{
+    "$schema": "https://go.kicad.org/api/schemas/v1",
+    "identifier": "github.com-Ccottin-42chip-cnc-kicad-plugin",
+    "name": "42chip-cnc-kicad-plugin",
+    "description": "Constrains for 42Chips' CNC boards available in a single clic",
+    "runtime": {
+        "type": "python",
+        "min_version": "3.9"
+    },
+    "actions": [
+        {
+            "identifier": "Set-constrains",
+            "name": "Set Constrains",
+            "description": "Set constrains to safely create a board on CNC in 42Chips' Lab",
+            "show-button": true,
+            "scopes": [
+                "pcb"
+            ],
+            "entrypoint": "main.py",
+            "icons-light": [
+                "icon.png"
+            ]
+        }
+    ]
+}
+}
