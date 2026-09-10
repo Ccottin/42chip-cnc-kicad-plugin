@@ -1,0 +1,17 @@
+# requirements to built project & build backend
+[build-system]
+requires = [
+    "poetry-core>=2.0.0,<3.0.0",
+    "protoletariat == 3.3.*",
+    "setuptools",
+    "mypy-protobuf == 3.6.*"
+]
+build-backend = "poetry.core.masonry.api"
+
+# used by build backend to create metadatas, dependencies
+[project]
+name = "42chip-cnc-kicad-plugin"
+version = "0.0"
+description = "Constrains for 42Chips' CNC boards available in a single clic"
+license = "MIT"
+requires-python = ">=3.9"
