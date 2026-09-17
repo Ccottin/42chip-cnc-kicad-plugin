@@ -10,7 +10,7 @@ build-backend = "poetry.core.masonry.api"
 
 # used by build backend to create metadatas, dependencies
 [project]
-name =  "42chip cnc plugin Kicad"
+name =  "42chip cnc plugin for Kicad"
 version = "0.0"
 description = "Constrains for 42Chips' CNC boards available in a single clic"
 license = "MIT"

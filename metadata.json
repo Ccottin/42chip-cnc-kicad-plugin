@@ -1,8 +1,18 @@
 {
     "$schema": "https://go.kicad.org/api/schemas/v1",
     "identifier": "com.github.Ccottin.42chip-cnc-kicad-plugin",
-    "name": "42chip cnc plugin Kicad",
+    "name": "42chip cnc plugin for Kicad",
+    "type": "plugin",
     "description": "Constrains for 42Chips' CNC boards available in a single clic",
+    "description_full": "Constrains for 42Chips' CNC boards available in a single clic",
+    "author": {
+        "name": "ccottin"
+    },
+    "versions": {
+        "version": "0.0",
+        "status": "developement",
+        "kicad_version": "9.0"
+    }
     "runtime": {
         "type": "python",
         "min_version": "3.9"
