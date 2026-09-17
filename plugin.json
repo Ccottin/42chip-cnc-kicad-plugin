@@ -1,7 +1,7 @@
 {
     "$schema": "https://go.kicad.org/api/schemas/v1",
-    "identifier": "github.com-Ccottin-42chip-cnc-kicad-plugin",
-    "name": "42chip-cnc-kicad-plugin",
+    "identifier": "com.github.Ccottin.42chip-cnc-kicad-plugin",
+    "name": "42chip cnc plugin Kicad",
     "description": "Constrains for 42Chips' CNC boards available in a single clic",
     "runtime": {
         "type": "python",
@@ -22,5 +22,4 @@
             ]
         }
     ]
-}
 }
